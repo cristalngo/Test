@@ -39,7 +39,7 @@ public class PongView extends JFrame {
         flipVerticalItem.setMnemonic('F');
         pongMenu.add(flipVerticalItem);
 
-        JMenuItem pauseItem = new JMenuItem("Pause/Continue");
+        JMenuItem pauseItem = new JMenuItem("Pause/Resume");
         pauseItem.setMnemonic('P');
         pongMenu.add(pauseItem);
 
